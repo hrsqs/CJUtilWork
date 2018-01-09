@@ -21,5 +21,6 @@ end
 ```objective-c
 import "CJUtil.h"
 ```
+建议写在pch文件里
 </br></br></br></br></br>
 若遇到问题或疑问，可联系QQ：510233528
