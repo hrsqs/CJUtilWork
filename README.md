@@ -4,10 +4,10 @@
 
 ## 安装说明
 
-方法一（下载）</br>
-- 下载GitHub源文件，拷贝Data文件夹下的所有文件至您的项目工程中。
+- 方法一（下载）</br>
+下载GitHub源文件，拷贝Data文件夹下的所有文件至您的项目工程中。
 
-方法二（CocoaPods）</br>
+- 方法二（CocoaPods）</br>
 ```ruby
 platform :ios, '8.0'
 
