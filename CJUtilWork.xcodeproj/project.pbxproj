@@ -13,13 +13,6 @@
 		873A6FE020033F2700D95917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873A6FDF20033F2700D95917 /* Assets.xcassets */; };
 		873A6FE320033F2700D95917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873A6FE120033F2700D95917 /* LaunchScreen.storyboard */; };
 		873A6FE620033F2700D95917 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 873A6FE520033F2700D95917 /* main.m */; };
-		873A6FF820034C3A00D95917 /* NSString+CJString.m in Sources */ = {isa = PBXBuildFile; fileRef = 873A6FF720034C3A00D95917 /* NSString+CJString.m */; };
-		873A6FFF20035D5600D95917 /* UIView+CJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873A6FFE20035D5600D95917 /* UIView+CJView.m */; };
-		873A7002200364A200D95917 /* UIImage+CJImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 873A7001200364A200D95917 /* UIImage+CJImage.m */; };
-		873A7005200365F100D95917 /* UIButton+CJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 873A7004200365F100D95917 /* UIButton+CJButton.m */; };
-		873A70082003685B00D95917 /* NSObject+CJObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 873A70072003685B00D95917 /* NSObject+CJObject.m */; };
-		873A700B2003695B00D95917 /* NSArray+CJArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 873A700A2003695B00D95917 /* NSArray+CJArray.m */; };
-		873A700E200369A800D95917 /* NSDictionary+CJDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 873A700D200369A800D95917 /* NSDictionary+CJDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,22 +26,6 @@
 		873A6FE220033F2700D95917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873A6FE420033F2700D95917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		873A6FE520033F2700D95917 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		873A6FED2003402B00D95917 /* CJUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJUtil.h; sourceTree = "<group>"; };
-		873A6FF0200340AD00D95917 /* CJMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMacro.h; sourceTree = "<group>"; };
-		873A6FF620034C3A00D95917 /* NSString+CJString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CJString.h"; sourceTree = "<group>"; };
-		873A6FF720034C3A00D95917 /* NSString+CJString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CJString.m"; sourceTree = "<group>"; };
-		873A6FFD20035D5600D95917 /* UIView+CJView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CJView.h"; sourceTree = "<group>"; };
-		873A6FFE20035D5600D95917 /* UIView+CJView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CJView.m"; sourceTree = "<group>"; };
-		873A7000200364A200D95917 /* UIImage+CJImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CJImage.h"; sourceTree = "<group>"; };
-		873A7001200364A200D95917 /* UIImage+CJImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CJImage.m"; sourceTree = "<group>"; };
-		873A7003200365F100D95917 /* UIButton+CJButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CJButton.h"; sourceTree = "<group>"; };
-		873A7004200365F100D95917 /* UIButton+CJButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CJButton.m"; sourceTree = "<group>"; };
-		873A70062003685B00D95917 /* NSObject+CJObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CJObject.h"; sourceTree = "<group>"; };
-		873A70072003685B00D95917 /* NSObject+CJObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CJObject.m"; sourceTree = "<group>"; };
-		873A70092003695B00D95917 /* NSArray+CJArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+CJArray.h"; sourceTree = "<group>"; };
-		873A700A2003695B00D95917 /* NSArray+CJArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CJArray.m"; sourceTree = "<group>"; };
-		873A700C200369A800D95917 /* NSDictionary+CJDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CJDictionary.h"; sourceTree = "<group>"; };
-		873A700D200369A800D95917 /* NSDictionary+CJDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CJDictionary.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,22 +75,6 @@
 		873A6FEC2003401A00D95917 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				873A6FED2003402B00D95917 /* CJUtil.h */,
-				873A6FF0200340AD00D95917 /* CJMacro.h */,
-				873A6FF620034C3A00D95917 /* NSString+CJString.h */,
-				873A6FF720034C3A00D95917 /* NSString+CJString.m */,
-				873A6FFD20035D5600D95917 /* UIView+CJView.h */,
-				873A6FFE20035D5600D95917 /* UIView+CJView.m */,
-				873A7000200364A200D95917 /* UIImage+CJImage.h */,
-				873A7001200364A200D95917 /* UIImage+CJImage.m */,
-				873A7003200365F100D95917 /* UIButton+CJButton.h */,
-				873A7004200365F100D95917 /* UIButton+CJButton.m */,
-				873A70062003685B00D95917 /* NSObject+CJObject.h */,
-				873A70072003685B00D95917 /* NSObject+CJObject.m */,
-				873A70092003695B00D95917 /* NSArray+CJArray.h */,
-				873A700A2003695B00D95917 /* NSArray+CJArray.m */,
-				873A700C200369A800D95917 /* NSDictionary+CJDictionary.h */,
-				873A700D200369A800D95917 /* NSDictionary+CJDictionary.m */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -190,14 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873A6FDB20033F2700D95917 /* ViewController.m in Sources */,
-				873A6FF820034C3A00D95917 /* NSString+CJString.m in Sources */,
-				873A6FFF20035D5600D95917 /* UIView+CJView.m in Sources */,
-				873A700B2003695B00D95917 /* NSArray+CJArray.m in Sources */,
-				873A7005200365F100D95917 /* UIButton+CJButton.m in Sources */,
 				873A6FE620033F2700D95917 /* main.m in Sources */,
-				873A70082003685B00D95917 /* NSObject+CJObject.m in Sources */,
-				873A700E200369A800D95917 /* NSDictionary+CJDictionary.m in Sources */,
-				873A7002200364A200D95917 /* UIImage+CJImage.m in Sources */,
 				873A6FD820033F2700D95917 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
