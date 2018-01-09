@@ -254,17 +254,17 @@
     return [self _yy_flipHorizontal:YES vertical:YES];
 }
 
-- (UIImage *)imageByFlipVertical {
-    return [self _yy_flipHorizontal:NO vertical:YES];
-}
+//- (UIImage *)imageByFlipVertical {
+//    return [self _yy_flipHorizontal:NO vertical:YES];
+//}
 
-- (UIImage *)imageByFlipHorizontal {
-    return [self _yy_flipHorizontal:YES vertical:NO];
-}
+//- (UIImage *)imageByFlipHorizontal {
+//    return [self _yy_flipHorizontal:YES vertical:NO];
+//}
 
-static inline CGFloat DegreesToRadians(CGFloat degrees) {
-    return degrees * M_PI / 180;
-}
+//static inline CGFloat DegreesToRadians(CGFloat degrees) {
+//    return degrees * M_PI / 180;
+//}
 @end
 
 

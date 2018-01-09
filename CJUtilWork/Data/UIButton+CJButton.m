@@ -10,6 +10,8 @@
 
 @implementation UIButton (CJButton)
 
+@dynamic block;
+
 -(void)addCallBackAction:(ButtonActionCallBack)action
 {
     self.block = action;
