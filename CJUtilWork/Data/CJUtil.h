@@ -15,8 +15,9 @@
 #import "UIImage+CJImage.h"
 #import "UIButton+CJButton.h"
 #import "NSObject+CJObject.h"
+#import "NSDate+CJDate.h"
 #import "NSArray+CJArray.h"             // 包括NSArray、NSMutableArray分类
 #import "NSDictionary+CJDictionary.h"   // 包括NSDictionary、NSMutableDictionary分类
 
 
-#define CJUTIL_VERSION @"1.0.1"
+#define CJUTIL_VERSION @"1.1.0"

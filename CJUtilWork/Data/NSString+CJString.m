@@ -7,6 +7,7 @@
 //
 
 #import "NSString+CJString.h"
+#import "NSDate+CJDate.h"
 #import <CoreText/CoreText.h>
 
 @implementation NSString (CJString)
@@ -157,6 +158,32 @@
     NSString *strDate = [dateFormatter stringFromDate:timestampDate];
     
     return strDate;
+}
+
++ (NSInteger) getAgeWithTimeStr:(NSString*)timeStr formatter:(NSString*)formatter
+{
+    NSDateFormatter*df = [[NSDateFormatter alloc] init];//格式化
+    [df setDateFormat:formatter];
+    [df setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
+    NSDate *birthDate = [df dateFromString:timeStr];
+    
+    NSInteger year = birthDate.year;
+    NSInteger month = birthDate.month;
+    NSInteger day = birthDate.day;
+    
+    NSDate *nowDate = [NSDate date];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierISO8601];
+    NSDateComponents *compomemts = [calendar components:NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitWeekday | NSCalendarUnitDay fromDate:nowDate];
+    NSInteger nowYear = compomemts.year;
+    NSInteger nowMonth = compomemts.month;
+    NSInteger nowDay = compomemts.day;
+    
+    // 计算年龄
+    NSInteger userAge = nowYear - year - 1;
+    if ((nowMonth > month) || (nowMonth == month && nowDay >= day)) {
+        userAge++;
+    }
+    return userAge;
 }
 
 - (BOOL) isValidMobileNumber {

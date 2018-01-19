@@ -88,6 +88,14 @@
  */
 + (NSString *) getStringWithTimestamp:(NSTimeInterval)timestamp formatter:(NSString*)formatter;
 
+/**
+ 通过时间字符串和自定义格式获取年龄
+ @param timeStr 时间字符串
+ @param formatter 格式
+ @return 年龄
+ */
++ (NSInteger) getAgeWithTimeStr:(NSString*)timeStr formatter:(NSString*)formatter;
+
 //有效的电话号码
 - (BOOL) isValidMobileNumber;
 
