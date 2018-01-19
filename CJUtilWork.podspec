@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CJUtilWork"
-  s.version      = "1.0.1"
+  s.version      = "1.1.0"
   s.summary      = "CJUtil 常用工具."
 
   # This description is used to generate tags and improve search results.
