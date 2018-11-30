@@ -1,7 +1,9 @@
-# CJUtilWork (1.1.0)
+# CJUtilWork (1.2.0)
 
 - 说明：包含常用的宏定义、常用类的分类
 
+- 更新：（1.2.0）</br>
+增加iPhoneX系列判断</br>
 - 更新：（1.1.0）</br>
 添加NSDate分类</br>
 添加NSString分类的获取生日函数
