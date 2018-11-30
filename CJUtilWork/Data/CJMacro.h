@@ -6,6 +6,21 @@
 //  Copyright © 2018年 陈敬. All rights reserved.
 //
 
+
+// 判断是否为iPhone X 系列  这样写消除了在Xcode10上的警告。
+#define IPHONE_X \
+({BOOL isPhoneX = NO;\
+if (@available(iOS 11.0, *)) {\
+isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
+}\
+(isPhoneX);})
+
+// 导航栏高度
+#define SafeAreaTopHeight (IPHONE_X ? 88 : 64)
+
+// tabbar高度
+#define SafeAreaBottomHeight (IPHONE_X ? (49 + 34) : 49)
+
 // 字符串是否为空
 #define kStringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
 
@@ -35,6 +50,8 @@
 #define kApplication [UIApplication sharedApplication]
 // 主窗口 （keyWindow）
 #define kKeyWindow [UIApplication sharedApplication].keyWindow
+// 主窗口 （keyWindow）
+#define kDelegateWindow [UIApplication sharedApplication].delegate.window
 // APP对象的delegate
 #define kAppDelegate [UIApplication sharedApplication].delegate
 // NSUserDefaults实例化
@@ -89,9 +106,9 @@
 #define kEndTime  NSLog(@"Time: %f", CFAbsoluteTimeGetCurrent() - start)
 
 // NavigationBar高度 （44）
-#define TopStatus_NavigationHeight(x) ([[UIApplication sharedApplication] statusBarFrame].size.height + x.navigationController.navigationBar.frame.size.height)
+//#define TopStatus_NavigationHeight(x) ([[UIApplication sharedApplication] statusBarFrame].size.height + x.navigationController.navigationBar.frame.size.height)
 // tabBar高度 （49）
-#define TabBar_HEIGHT 49
+//#define TabBar_HEIGHT 49
 
 // 读取 本地图片
 #define LOADIMAGE(file,ext) [UIImage imageWithContentsOfFile:[NSBundle mainBundle] pathForResource:file ofType:ext］

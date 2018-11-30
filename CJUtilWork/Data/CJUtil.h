@@ -20,4 +20,4 @@
 #import "NSDictionary+CJDictionary.h"   // 包括NSDictionary、NSMutableDictionary分类
 
 
-#define CJUTIL_VERSION @"1.1.0"
+#define CJUTIL_VERSION @"1.2.0"
